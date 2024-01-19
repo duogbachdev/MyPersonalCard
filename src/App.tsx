@@ -8,46 +8,46 @@ import pin from "../src/assets/img/pin.gif";
 import { AiFillHeart } from "react-icons/ai";
 function App() {
   return (
-    <div className="bg-bgnek py-10 md:h-screen relative font-iawriter">
+    <div className="bg-bgnek bg-cover bg-center py-10 md:h-screen relative font-iawriter">
       {/* Hiệu ứng mờ cho hình ảnh nền */}
-      <div className="absolute inset-0 backdrop-blur-lg opacity-80"></div>
+      <div className="absolute inset-0 backdrop-blur-lg opacity-1"></div>
 
       <div className="container mx-auto relative">
         <div className="flex justify-center">
           <img className="rounded-full w-[100px]" src={logoImg} alt="" />
         </div>
-        <p className="text-center font-semibold mt-5 text-[#47d353] leading-5 text-3xl">Trang Tone</p>
-        <p className="text-center mt-12 px-5 md:px-0 font-semibold md:leading-5 text-xl">
-          Mình là Trang Tone, đây là bio của mình nek (≧∇≦)ﾉ
+        <p className="text-center font-semibold mt-5 text-black leading-5 text-3xl">Nguyễn Khánh Ngọc</p>
+        <p className="text-center mt-8 px-5 md:px-0 font-semibold md:leading-5 text-xl">
+          Mình là Khánh Ngọc, đây là bio của mình nek (≧∇≦)ﾉ
         </p>
 
         <>
           <div className="flex justify-center cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out">
-            <div className="flex rounded-full text-white py-2 w-[300px] md:w-[700px] lg:w-[1000px] bg-gradient-to-r from-[#43e97b] to-[#d4fc79] items-center px-5 gap-10 md:gap-52 xl:gap-96 mt-8">
+            <div className="flex rounded-full text-black py-2 w-[300px] md:w-[700px] lg:w-[1000px] bg-gradient-to-r from-[#e3b2ff] to-[#fcff65] items-center px-5 gap-10 md:gap-52 xl:gap-96 mt-8">
               <img className="w-[25%] md:w-[5%]" src={gifNek} alt="" />
               <p className="text-center font-semibold text-xl">Website</p>
             </div>
           </div>
           <div className="flex justify-center cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out">
-            <div className="flex rounded-full text-white py-2 w-[300px] md:w-[700px] lg:w-[1000px] bg-gradient-to-r from-[#43e97b] to-[#d4fc79] items-center px-5 gap-10 md:gap-52 xl:gap-96 mt-8">
+            <div className="flex rounded-full text-black py-2 w-[300px] md:w-[700px] lg:w-[1000px] bg-gradient-to-r from-[#e3b2ff] to-[#fcff65] items-center px-5 gap-10 md:gap-52 xl:gap-96 mt-8">
               <img className="w-[25%] md:w-[5%]" src={note} alt="" />
               <p className="text-center font-semibold text-xl">Documents</p>
             </div>
           </div>
           <div className="flex justify-center cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out">
-            <div className="flex rounded-full text-white py-2 w-[300px] md:w-[700px] lg:w-[1000px] bg-gradient-to-r from-[#43e97b] to-[#d4fc79] items-center px-5 gap-10 md:gap-52 xl:gap-96 mt-8">
+            <div className="flex rounded-full text-black py-2 w-[300px] md:w-[700px] lg:w-[1000px] bg-gradient-to-r from-[#e3b2ff] to-[#fcff65] items-center px-5 gap-10 md:gap-52 xl:gap-96 mt-8">
               <img className="w-[25%] md:w-[5%]" src={phone} alt="" />
               <p className="text-center font-semibold text-xl">Phone</p>
             </div>
           </div>
           <div className="flex justify-center cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out">
-            <div className="flex rounded-full text-white py-2 w-[300px] md:w-[700px] lg:w-[1000px] bg-gradient-to-r from-[#43e97b] to-[#d4fc79] items-center px-5 gap-10 md:gap-52 xl:gap-96 mt-8">
+            <div className="flex rounded-full text-black py-2 w-[300px] md:w-[700px] lg:w-[1000px] bg-gradient-to-r from-[#e3b2ff] to-[#fcff65] items-center px-5 gap-10 md:gap-52 xl:gap-96 mt-8">
               <img className="w-[25%] md:w-[5%]" src={ins} alt="" />
               <p className="text-center font-semibold text-xl">Instagram</p>
             </div>
           </div>
           <div className="flex justify-center cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out">
-            <div className="flex rounded-full text-white py-2 w-[300px] md:w-[700px] lg:w-[1000px] bg-gradient-to-r from-[#43e97b] to-[#d4fc79] items-center px-5 gap-10 md:gap-52 xl:gap-96 mt-8">
+            <div className="flex rounded-full text-black py-2 w-[300px] md:w-[700px] lg:w-[1000px] bg-gradient-to-r from-[#e3b2ff] to-[#fcff65] items-center px-5 gap-10 md:gap-52 xl:gap-96 mt-8">
               <img className="w-[25%] md:w-[5%]" src={fb} alt="" />
               <p className="text-center font-semibold text-xl">
                 <a href="http://duogbachdev.me">Facebook</a>
@@ -55,7 +55,7 @@ function App() {
             </div>
           </div>
           <div className="flex justify-center cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out">
-            <div className="flex rounded-full text-white py-2 w-[300px] md:w-[700px] lg:w-[1000px] bg-gradient-to-r from-[#43e97b] to-[#d4fc79] items-center px-5 gap-10 md:gap-52 xl:gap-96 mt-8">
+            <div className="flex rounded-full text-black py-2 w-[300px] md:w-[700px] lg:w-[1000px] bg-gradient-to-r from-[#e3b2ff] to-[#fcff65] items-center px-5 gap-10 md:gap-52 xl:gap-96 mt-8">
               <img className="w-[25%] md:w-[5%]" src={pin} alt="" />
               <p className="hidden md:block text-center font-semibold text-xl">
                 Pinterest &#40;tổng hợp meme, ảnh...&#41;
@@ -65,7 +65,7 @@ function App() {
           </div>
         </>
 
-        <p className="text-center mt-10 font-semibold leading-5 ">
+        <p className="text-center mt-24 font-semibold leading-5 ">
           &copy;Copyright 2023 <br />{" "}
           <a
             className="flex text-[#e0ad20] hover:text-black justify-center items-end gap-3"
