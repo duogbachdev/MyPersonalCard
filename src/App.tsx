@@ -50,7 +50,7 @@ function App() {
             <div className="flex rounded-full text-black py-2 w-[300px] md:w-[700px] lg:w-[1000px] bg-gradient-to-r from-[#e3b2ff] to-[#fcff65] items-center px-5 gap-10 md:gap-52 xl:gap-96 mt-8">
               <img className="w-[25%] md:w-[5%]" src={fb} alt="" />
               <p className="text-center font-semibold text-xl">
-                <a href="http://duogbachdev.me">Facebook</a>
+                <a href="http://www.facebook.com/...">Facebook</a>
               </p>
             </div>
           </div>
